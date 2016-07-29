@@ -1,0 +1,6 @@
+1. Don't assum one line of file is one line of image. I have to refactor the file so its dimensions fit my program.
+   In general, always make sure the dimensions of an image is a right fit. If the image's dimensions derail,
+   then it is my job to fix it. It's not a complicated task. lump all the pixels into one giant list, and slice 
+   list so every sublist can be converted to one line of strings that represents one line of image. Then write 
+   every single line into the file.
+  
